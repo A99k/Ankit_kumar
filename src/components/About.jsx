@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 const About = () => {
   return (
     <div className="p-6 md:p-12">
@@ -12,7 +13,9 @@ const About = () => {
             <p className='text-4xl font-extrabold'>About Me</p>
             <p className='mt-2'>Hi, I’m Ankit, a passionate web developer who loves crafting modern, responsive, and user-friendly websites. I specialize in front-end development using HTML, CSS, JavaScript, and React, and I’m also experienced in Node.js and MongoDB for back-end solutions. My goal is to create digital experiences that are both functional and visually appealing. When I’m not coding, I explore new technologies, improve my design skills, and work on open-source projects. Check out my work and let’s build something amazing together!</p>
           </div>
-          <a><span className='underline text-xl font-medium '>View My Projects</span></a>
+          <Link to="/projects" className="underline text-lg sm:text-xl font-medium">View My Projects</Link>
+                         
+                 
         </div>
       </div>
     </div>

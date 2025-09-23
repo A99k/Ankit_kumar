@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/header.css";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -15,16 +16,23 @@ const Header = () => {
 
   const navLinks = (
     <>
-      <a href="#home">Home</a>
+       <Link to="/">Home</Link> 
+       <Link to="/projects">Projects</Link>
+        <Link to="/about">About</Link>
+        <Link to="/contact">Contact</Link>
+      {/* <a href="#home">Home</a>
       <a href="#projects">Projects</a>
       <a href="#about">About</a>
-      <a href="#contacts">Contacts</a>
-      <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+      <a href="#contacts">Contacts</a> */}
+      {/* <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
         <img src="./assets/prime_instagram.svg" alt="" />
-      </a>
-      <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+      </a> */}
+      <Link to="https://instagram.com"><img src="./assets/prime_instagram.svg" alt="" /></Link>
+      <Link to="https://github.com"><img src="./assets/prime_github.svg" alt="" /></Link>
+      <Link to="https://linkedin.com"><img src="./assets/prime_linkedin.svg" alt="" /></Link>
+      {/* <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
         <img src="./assets/prime_github.svg" alt="" />
-      </a>
+      </a> */}
     </>
   );
 
