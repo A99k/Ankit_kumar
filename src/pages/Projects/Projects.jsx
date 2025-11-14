@@ -5,44 +5,43 @@ import PropTypes from "prop-types";
 
 const projects = [
   {
-    title: "Olova! A Lightweight JavaScript Library",
+    title: "Smart To-Do List App",
     description:
-      "A lightweight JavaScript library for creating beautiful, responsive UI components.",
-    src: "rock.jpg",
-    link: "https://i.postimg.cc/DwgWTfP0/Annotation-2025-03-19-113338.png",
+      "A simple and interactive To-Do List application built with React that helps users efficiently manage their daily tasks. It allows users to add new tasks, mark them as completed, and delete tasks when they’re done. The app uses React’s state management to deliver a smooth and responsive experience, making task organization quick and intuitive.",
+    link:"https://i.postimg.cc/BvmDPHVJ/new-project1.png",
     color: "#5196fd",
-    githubLink: "https://github.com/olovajs/olova",
-    liveLink: "https://olova.js.org/",
+    githubLink: "https://github.com/A99k/TodoProject",
+    liveLink: "https://a99k.github.io/TodoProject/",
   },
   {
-    title: "A sleek portfolio built with React and Tailwind CSS ",
+    title: "BMI Calculator App ",
     description:
-      "A sleek portfolio built with React and Tailwind CSS to showcase your skills, projects, and experience in a modern design.",
+      "A user-friendly BMI (Body Mass Index) Calculator built with React that helps users quickly determine their health category based on height and weight inputs. The app calculates BMI instantly, displays the result, and provides corresponding health status such as underweight, normal, overweight, or obese. Designed with responsive UI and smooth interactions, it offers an easy and efficient way to track personal fitness.",
     src: "tree.jpg",
-    link: "https://i.postimg.cc/J75CKyrs/Annotation-2025-04-01-203959.png",
+    link: "https://i.postimg.cc/Gtwf842g/new-project2.png",
     color: "#8f89ff",
-    githubLink: "https://github.com/seraprogrammer/portfolio",
-    liveLink: "https://codervai.vercel.app",
+    githubLink: "https://github.com/A99k/BMI_Calculator",
+    liveLink: "https://a99k.github.io/BMI_Calculator/",
   },
   {
-    title: "🚀 CodeWhisperer",
+    title: "Interactive Drum Kit App",
     description:
-      "🚀 CodeWhisperer A powerful online code editor built with React and Tailwind CSS. Featuring real-time code execution, syntax highlighting, multi-language support, and a sleek UI. Start coding instantly! 💻✨",
+      "An engaging and responsive Drum Kit application built with React that lets users play different drum sounds using on-screen buttons or keyboard keys. Each drum pad triggers a unique sound with instant audio feedback, creating a fun, real-time music experience. With smooth animations and a clean UI, the app provides an enjoyable way to explore rhythm and creativity right in the browser.",
     src: "water.jpg",
-    link: "https://i.postimg.cc/J4jPVFY0/Annotation-2025-04-01-204723.png",
+    link: "https://i.postimg.cc/R0qCGDR0/project5.png",
     color: "#fff",
-    githubLink: "https://github.com/seraprogrammer/codewhisperer",
-    liveLink: "https://codewhisperer.vercel.app/",
+    githubLink: "https://github.com/A99k/Drum",
+    liveLink: "https://a99k.github.io/Drum/",
   },
   {
-    title: "CodeKori 🔥",
+    title: "Interactive Dice Roller App",
     description:
-      "CodeKori is a powerful online code editor built with React and Tailwind CSS. Featuring real-time code execution, syntax highlighting, multi-language support, and a sleek UI. Start coding instantly! 💻✨",
+      "A simple and dynamic Dice Roller application built with React that lets users roll one or more dice with a single click. Each roll generates random outcomes, visually updating the dice faces in real time. Designed with smooth animations and a clean interface, the app offers a fun and engaging way to simulate dice rolls for games, probability practice, or quick decision-making. 💻✨",
     src: "house.jpg",
-    link: "https://i.postimg.cc/cHQr4fpR/Annotation-2025-04-01-205350.png",
+    link: "https://i.postimg.cc/Dzf6NqJ2/project6.png",
     color: "#ed649e",
-    githubLink: "https://github.com/seraprogrammer/CodeKori",
-    liveLink: "https://codekori.js.org",
+    githubLink: "https://github.com/A99k?tab=repositories",
+    liveLink: "https://a99k.github.io/Dice-Game/",
   },
 ];
 

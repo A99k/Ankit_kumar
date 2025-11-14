@@ -50,7 +50,7 @@ export default function Hero() {
   const [code] = useState(`
 const profile = {
     name: 'Ankit Kumare',
-    title: 'Full-Stack Developer | Problem Solver',
+    title: 'Frontend Developer | Problem Solver',
     skills: [
         'React', 'NextJS', 'Redux', 'Express',
         'MySQL', 'MongoDB', 'TypeScript',

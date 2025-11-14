@@ -16,23 +16,23 @@ const EducationSection = () => {
   const educationData = [
     {
       degree: "Secondary School Certificate (SSC)",
-      school: "Natore Textile Institute",
+      school: "SVM Inter College",
       mascot: "📘",
-      year: "2019-2021",
-      achievements: ["GPA: 4.89", "Subject: Science"],
-      skills: ["Mathematics", "Physics", "Chemistry", "Biology"],
+      year: "2020-2022",
+      achievements: ["GPA: 3.2", "Subject: Science"],
+      skills: ["Mathematics", "Physics", "Chemistry"],
       description:
         "Focused on core science subjects with emphasis on practical laboratory work and scientific research methodologies.",
     },
     {
       degree: "Higher Secondary Certificate (HSC)",
-      school: "Dottopara Model Degree College",
+      school: "CMS College",
       mascot: "📗",
-      year: "2021-2023",
-      achievements: ["GPA: 4.25", "Subject: Arts"],
-      skills: ["Literature", "Social Studies", "Economics", "History"],
+      year: "2022-2025",
+      achievements: ["GPA: 3.52", "Subject: Computer Science"],
+      skills: ["C++/Java", "OOPs", "Web Development", "Data Structures"],
       description:
-        "Developed strong analytical and critical thinking skills through comprehensive study of humanities and social sciences.",
+        "Developed strong analytical and problem-solving skills through comprehensive study of computer science concepts, programming, and computational thinking.",
     },
   ];
 
